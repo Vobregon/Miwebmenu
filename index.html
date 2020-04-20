@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>ENCABEZADO</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+		<link rel="stylesheet" href="estilo.css">
+		
+		<script src="https://kit.fontawesome.com/365898da22.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	     <header>
+	     	    <div class="logo">LOGO</div>
+	     	    <nav class="active">
+	     	    	<ul>
+	     	    		<li><a href="#" class="active">Home</a></li>
+	     	    		<li><a href="#">About</a></li>
+	     	    		<li><a href="#">Servicios</a></li>
+	     	    		<li><a href="#">Team</a></li>
+	     	    		<li><a href="#">Portafolio</a></li>
+	     	    		<li><a href="#">Contacto</a></li>
+	     	    	</ul>
+	     	    </nav>
+	     	    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+	     </header>
+		
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script type="text/javascript">
+		$(document).ready(function(){
+			$('.menu-toggle').click(function(){
+				$('nav').toggleClass('active')
+			})
+		})
+		
+		</script>
+	</body>
+	
+</html>
+
+
+
+
